@@ -1,0 +1,101 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Anycoin\orders.csv" />
+    <None Remove="Resources\Binance\2017.csv" />
+    <None Remove="Resources\Binance\2018.csv" />
+    <None Remove="Resources\Binance\2019.csv" />
+    <None Remove="Resources\Binance\2020.csv" />
+    <None Remove="Resources\Binance\2021.csv" />
+    <None Remove="Resources\BitpandaPro\headerlesss-trades full-history Feb 06, 2022.csv" />
+    <None Remove="Resources\Bitpanda\headerless-bitpanda-trades-2022-02-06-19-09.csv" />
+    <None Remove="Resources\BittrexOrderHistory_2016.csv" />
+    <None Remove="Resources\BittrexOrderHistory_2017.csv" />
+    <None Remove="Resources\BittrexOrderHistory_2018.csv" />
+    <None Remove="Resources\BittrexOrderHistory_2019.csv" />
+    <None Remove="Resources\BittrexOrderHistory_2020.csv" />
+    <None Remove="Resources\BittrexOrderHistory_2021.csv" />
+    <None Remove="Resources\Bittrex\BittrexOrderHistory_2016.csv" />
+    <None Remove="Resources\Bittrex\BittrexOrderHistory_2017.csv" />
+    <None Remove="Resources\Bittrex\BittrexOrderHistory_2019.csv" />
+    <None Remove="Resources\Bittrex\BittrexOrderHistory_2020.csv" />
+    <None Remove="Resources\Bittrex\BittrexOrderHistory_2021.csv" />
+    <None Remove="Resources\Coinmate\transaction_history.csv" />
+    <None Remove="Resources\Coinmate\transaction_history_before_2019.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Anycoin\orders.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Binance\2017.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Binance\2018.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Binance\2019.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Binance\2020.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Binance\2021.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\BitpandaPro\headerlesss-trades full-history Feb 06, 2022.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Bitpanda\headerless-bitpanda-trades-2022-02-06-19-09.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Bittrex\BittrexOrderHistory_2016.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Bittrex\BittrexOrderHistory_2017.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Bittrex\BittrexOrderHistory_2018.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Bittrex\BittrexOrderHistory_2019.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Bittrex\BittrexOrderHistory_2020.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Bittrex\BittrexOrderHistory_2021.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Coinmate\transaction_history.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Coinmate\transaction_history_before_2019.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.8.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.1" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.3.1" />
+    <PackageReference Include="coverlet.collector" Version="3.2.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Simple.Mocking" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PortfolioManager.Core\PortfolioManager.Core.csproj" />
+  </ItemGroup>
+
+</Project>

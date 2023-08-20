@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortfolioManager.Core", "PortfolioManager.Core\PortfolioManager.Core.csproj", "{D8FCBF01-0905-4E99-8FDC-CD22BD5142AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortfolioManager.ConsoleApp", "PortfolioManager.ConsoleApp\PortfolioManager.ConsoleApp.csproj", "{799148B9-CC02-4D1A-AE18-99AFE3E6116B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortfolioManager.Core.Tests", "PortfolioManager.Core.Tests\PortfolioManager.Core.Tests.csproj", "{4EBD9F62-6B29-4422-856E-8356F46E15DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A844CE88-B48C-4A70-BAEB-C3AD24A08731}"
+	ProjectSection(SolutionItems) = preProject
+		ToDo.txt = ToDo.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{79BA9E68-1247-4557-A4CE-2AEF954FE3E4}"
+	ProjectSection(SolutionItems) = preProject
+		..\doc\20220211_TaxCalculation.xlsx = ..\doc\20220211_TaxCalculation.xlsx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8FCBF01-0905-4E99-8FDC-CD22BD5142AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FCBF01-0905-4E99-8FDC-CD22BD5142AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FCBF01-0905-4E99-8FDC-CD22BD5142AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FCBF01-0905-4E99-8FDC-CD22BD5142AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{799148B9-CC02-4D1A-AE18-99AFE3E6116B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799148B9-CC02-4D1A-AE18-99AFE3E6116B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799148B9-CC02-4D1A-AE18-99AFE3E6116B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799148B9-CC02-4D1A-AE18-99AFE3E6116B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EBD9F62-6B29-4422-856E-8356F46E15DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBD9F62-6B29-4422-856E-8356F46E15DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBD9F62-6B29-4422-856E-8356F46E15DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBD9F62-6B29-4422-856E-8356F46E15DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33E5786D-8BBA-41B8-90A2-CB29232FDEC2}
+	EndGlobalSection
+EndGlobal
